@@ -1,0 +1,25 @@
+{
+    "name": "dyn/unlimited",
+    "description": "This is a unlimited classified",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dyn\\Unlimited\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dyn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Dyn\\Unlimited\\UnlimitedServiceProvider"
+        ]
+    }
+}
+
+}
