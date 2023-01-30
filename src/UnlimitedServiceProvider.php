@@ -1,7 +1,7 @@
 <?php  
 namespace Dyn\Unlimited;
 use Illuminate\Support\ServiceProvider;
-class UnlimitedProvider extends ServiceProvider
+class UnlimitedServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
